@@ -40,6 +40,8 @@ public class Chemin : NetworkBehaviour
     int[,] tabVoisin;
     int num; //noramlement c'est la première ligne de sort
     int[] chemin;
+
+    bool cameraSwitch = false;
     
 
     // Start is called before the first frame update
@@ -73,7 +75,21 @@ public class Chemin : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (cameraSwitch)
+            {
+                cameraSwitch = false;
+                Debug.Log("Switching camera 1");
+            }
+            else
+            {
+                cameraSwitch = true;
+                Debug.Log("Switching camera 2");
+            }
+            
+        }
 
         if (isLocalPlayer)
         {

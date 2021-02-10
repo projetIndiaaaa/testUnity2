@@ -2987,6 +2987,7 @@ MonoBehaviour:
   checkMask:
     serializedVersion: 2
     m_Bits: 512
+  playerCam: {fileID: 0}
   ligne: 5
   colonne: 10
 --- !u!1001 &1260580809

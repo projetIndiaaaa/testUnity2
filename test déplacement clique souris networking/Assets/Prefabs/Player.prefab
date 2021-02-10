@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 8208168928303944288}
   - component: {fileID: 8208168928303944294}
   - component: {fileID: 8208168928303944289}
+  - component: {fileID: 3810961825211171146}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -334,6 +335,31 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8208168928303944291}
   m_Enabled: 0
+--- !u!114 &3810961825211171146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8208168928303944291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f7bfc71de591d48ae7f57166f3e5fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScreenEdgeBorderThickness: -100000
+  RTSMode: 1
+  FlyCameraMode: 0
+  minPanSpeed: 2
+  maxPanSpeed: 20
+  secToMaxSpeed: 5
+  zoomSpeed: 5
+  enableMovementLimits: 0
+  heightLimit: {x: 0, y: 0}
+  lenghtLimit: {x: 0, y: 0}
+  widthLimit: {x: 0, y: 0}
+  rotationEnabled: 1
+  rotateSpeed: 3
 --- !u!1 &8208168928690477970
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +411,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   groundCheck: {fileID: 8208168927573368675}
-  capsule: {fileID: 8208168928690477968}
+  capsule: {fileID: 8208168927957617242}
   checkMask:
     serializedVersion: 2
     m_Bits: 512
