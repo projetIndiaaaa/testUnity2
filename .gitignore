@@ -1,0 +1,6 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+#Adgathar_clone_0
+*_clone_[0-100]*
